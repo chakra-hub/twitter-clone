@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter/Login</title>
+    <link rel="icon" href="images/twitter-logo.png" type="icon/image" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login_page.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-item-container">
+        <div class="left-two">
+          <ul>
+            <li><img src="images/twitter-logo.png" alt="" /></li>
+            <li>Home</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div id="lang">Language: English</div>
+      </div>
+    </header>
+    <div class="box-container">
+      <div class="box">
+        <div class="form-content">
+          <p id="label">Log In To Twitter</p>
+          <input
+            id="ids"
+            type="text"
+            class="input-field"
+            placeholder="Phone, Email, or Username"
+          />
+          <input type="password" class="input-field" id="pass" placeholder="Password" />
+          <div class="error-msg">Invalid Credentials</div>
+          <ul class="loginandothers">
+            <li><button type="submit" id="login-btn">Log In</button></li>
+            <li id="remember">
+              <input type="checkbox" name="" id="rememberme" />Remember Me
+            </li>
+            <li><a href="#">Forgot Password ?</a></li>
+          </ul>
+        </div>
+        <div class="bottom">
+            <div class="item-container">
+                <div class="bottom-content">New To Twitter? <a href="#">Sign Up Here</a></div>
+                <div class="bottom-content">Already Using Twitter via text message? <a href="#">Activate your account</a></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="login_page.js"></script>
+  </body>
+</html>
